@@ -6,7 +6,7 @@ import HomeScreen from '../screens/HomeScreen';
 
 import { DefaultStackNavigatorParamList } from './types';
 import PanGestureHandlerScreen from '../screens/PanGestureHandlerScreen';
-// import InterpolateScrollViewScreen from '../screens/InterpolateScrollViewScreen';
+import InterpolateScrollViewScreen from '../screens/InterpolateScrollViewScreen';
 
 
 const DefaultStack = createNativeStackNavigator<DefaultStackNavigatorParamList>();
@@ -17,7 +17,7 @@ const DefaultStackNavigator = () => {
             <DefaultStack.Screen name="Home" component={HomeScreen} />
             <DefaultStack.Screen name="Intro" component={IntroScreen} />
             <DefaultStack.Screen name="PanGestureHandler" component={PanGestureHandlerScreen} />
-            {/* <DefaultStack.Screen name="InterpolateScroll" component={InterpolateScrollViewScreen} /> */}
+            <DefaultStack.Screen name="InterpolateScroll" component={InterpolateScrollViewScreen} />
 
         </DefaultStack.Navigator>
     );

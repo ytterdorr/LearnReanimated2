@@ -20,6 +20,11 @@ const HomeScreen = () => {
         >
             <Text style={styles.buttonText}>PanGestureHandler</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.navigationButton}
+            onPress={() => navigator.navigate('InterpolateScroll')}
+        >
+            <Text style={styles.buttonText}>Interpolate Scroll View</Text>
+        </TouchableOpacity>
     </View>
 }
 
