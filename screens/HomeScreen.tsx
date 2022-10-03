@@ -28,7 +28,12 @@ const HomeScreen = () => {
         <TouchableOpacity style={styles.navigationButton}
             onPress={() => navigator.navigate('InterpolateColor')}
         >
-            <Text style={styles.buttonText}>Interpolate Scroll View</Text>
+            <Text style={styles.buttonText}>Interpolate Colors</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.navigationButton}
+            onPress={() => navigator.navigate('PinchGesture')}
+        >
+            <Text style={styles.buttonText}>PinchGesture</Text>
         </TouchableOpacity>
     </View>
 }
