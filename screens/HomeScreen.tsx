@@ -25,6 +25,11 @@ const HomeScreen = () => {
         >
             <Text style={styles.buttonText}>Interpolate Scroll View</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.navigationButton}
+            onPress={() => navigator.navigate('InterpolateColor')}
+        >
+            <Text style={styles.buttonText}>Interpolate Scroll View</Text>
+        </TouchableOpacity>
     </View>
 }
 

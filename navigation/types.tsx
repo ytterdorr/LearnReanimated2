@@ -6,6 +6,7 @@ export type DefaultStackNavigatorParamList = {
     PanGestureHandler: undefined;
     PanGestureOfficial: undefined;
     InterpolateScroll: undefined;
+    InterpolateColor: undefined;
 }
 
 export type HomeScreenNavigationProp = NativeStackNavigationProp<
