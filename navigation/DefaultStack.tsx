@@ -14,12 +14,12 @@ const DefaultStack = createNativeStackNavigator<DefaultStackNavigatorParamList>(
 
 const DefaultStackNavigator = () => {
     return (
-        <DefaultStack.Navigator initialRouteName='Home' screenOptions={{ headerShown: false }} >
+        <DefaultStack.Navigator initialRouteName='InterpolateScroll' screenOptions={{ headerShown: false }} >
             <DefaultStack.Screen name="Home" component={HomeScreen} />
-            {/* <DefaultStack.Screen name="Intro" component={IntroScreen} />
-            <DefaultStack.Screen name="PanGestureHandler" component={PanGestureHandlerScreen} />
-            <DefaultStack.Screen name="PanGestureOfficial" component={PanGestureOfficial} />
-            <DefaultStack.Screen name="InterpolateScroll" component={InterpolateScrollViewScreen} /> */}
+            <DefaultStack.Screen name="Intro" component={IntroScreen} />
+            {/* <DefaultStack.Screen name="PanGestureHandler" component={PanGestureHandlerScreen} /> */}
+            {/* <DefaultStack.Screen name="PanGestureOfficial" component={PanGestureOfficial} /> */}
+            {/* <DefaultStack.Screen name="InterpolateScroll" component={InterpolateScrollViewScreen} /> */}
 
         </DefaultStack.Navigator>
     );

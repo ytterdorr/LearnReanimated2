@@ -10,12 +10,12 @@ const HomeScreen = () => {
     const navigator = useNavigation<HomeScreenNavigationProp>();
 
     return <View style={styles.container}>
-        {/* <TouchableOpacity style={styles.navigationButton}
+        <TouchableOpacity style={styles.navigationButton}
             onPress={() => navigator.navigate('Intro')}
         >
             <Text style={styles.buttonText}>Intro</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navigationButton}
+        {/* <TouchableOpacity style={styles.navigationButton}
             onPress={() => navigator.navigate('PanGestureHandler')}
         >
             <Text style={styles.buttonText}>PanGestureHandler</Text>
